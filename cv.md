@@ -1,3 +1,5 @@
+<img src="./photo.png" alt="Дарья Подскребалина" width="140" align="right" />
+
 # Дарья Подскребалина
 
 ### Frontend Developer
