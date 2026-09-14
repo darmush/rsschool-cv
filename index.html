@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Podskrebalina Darya 2026</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="page">
@@ -20,21 +23,31 @@
                     <li><a href="#contacts">Контакты</a></li>
                 </ul>
             </nav>
+            <footer>
+                <p><a href="https://github.com/darmush" target="_blank" rel="noopener noreferrer">&copy; 2026 Подскребалина Дарья</a></p>
+                <a href="https://rs.school/courses/javascript" target="_blank" rel="noopener noreferrer">
+                    <img src="./logo-rsschool3.png" alt="RSSchool Logo" class="rsschool-logo">
+                </a>
+        </footer>
         </aside>
         <main class="main">
             <header>
-                <h1>Подскребалина Дарья</h1>
-                <p>Frontend Developer</p>
+                <div class="header-text">
+                    <h1>Подскребалина Дарья</h1>
+                    <p>Frontend Developer</p>
+                </div>
                 <div class="photo">
                     <img src="./photo.png" alt="Photo of Darya Podskrebalina">
                 </div>
             </header>
             <section id="about">
-                <h2>О себе</h2>
-                <p>Опыт в дизайне и иллюстрации прокачал внимание к деталям и любовь к аккуратным, понятным интерфейсам. Год в технической поддержке добавил к этому взгляд «изнутри системы» — работу с API, логами, диагностикой багов. Хочу применять всё это в разработке.</p>
+                <h2><span class="highlight">О себе</span></h2>
+                <p>Опыт в&nbsp;дизайне и иллюстрации прокачал внимание к&nbsp;деталям и любовь к&nbsp;аккуратным, понятным интерфейсам. Год в&nbsp;технической поддержке добавил к&nbsp;этому взгляд изнутри — работу с&nbsp;API, логами, диагностикой багов. Хочу применять всё это в&nbsp;разработке.</p>
             </section>
             <section id="experience">
-                <h2>Опыт работы</h2>
+                <h2>
+                    <span class="highlight">Опыт работы</span>
+                </h2>
                 <ul>
                     <li>
                         <h3>Специалистка технической поддержки</h3>
@@ -63,18 +76,18 @@
                 </ul>
             </section>
             <section id="education">
-                <h2>Образование</h2>
+                <h2><span class="highlight">Образование</span></h2>
                 <ul>
                     <li>
                         <h3>JS Course, RS School</h3>
                         <p>2024 - 2026</p>
                         <p>Самообучение по открытым материалам, pet-проекты под руководством ментора</p>
-                        <p><a href="https://darmush.github.io/CV/#projects" target="_blank" rel="noopener noreferrer">// Посмотреть мои проекты.</a></p>
+                        <p><a class="projects" href="https://darmush.github.io/CV/#projects" target="_blank" rel="noopener noreferrer">// Посмотреть мои проекты.</a></p>
                     </li>
                 </ul>
             </section>
             <section id="skills">
-                <h2>Навыки</h2>
+                <h2><span class="highlight">Навыки</span></h2>
                 <ul>
                     <li>JavaScript, TypeScript</li>
                     <li>Vue.js, Pinia / Vuex, Webpack</li>
@@ -84,21 +97,21 @@
                 </ul>
             </section>
             <section id="languages">
-                <h2>Языки</h2>
+                <h2><span class="highlight">Языки</span></h2>
                 <ul>
                     <li>Русский — родной</li>
                     <li>Английский — B2</li>
                 </ul>
             </section>
             <section id="code">
-                <h2>Пример кода</h2>
+                <h2><span class="highlight">Пример кода</span></h2>
                 <p>Задача с Codewars — сортировка объектов по типу материала</p>
                 <pre class="code-block"><code class="language-js">
 function recycle(array) {
   let result = [];
   let mat = ['paper', 'glass', 'organic', 'plastic'];
 
-  for (let i = 0; i < mat.length; i++) {
+  for (let i = 0; i &lt; mat.length; i++) {
     let count = [];
     array.forEach(function(item) {
       if (item.material == mat[i] || item.secondMaterial == mat[i]) {
@@ -112,7 +125,7 @@ function recycle(array) {
                 </code></pre>
             </section>
             <section id="contacts">
-                <h2>Контакты</h2>
+                <h2><span class="highlight">Контакты</span></h2>
                 <ul>
                     <li><a href="mailto:podskrebalina.d@hotmail.com">podskrebalina.d@hotmail.com</a></li>
                     <li><a href="https://t.me/gribooli" target="_blank" rel="noopener noreferrer">Telegram</a></li>
@@ -121,12 +134,6 @@ function recycle(array) {
                 </ul>
             </section>
         </main>
-        <footer>
-            <p><a href="https://github.com/darmush" target="_blank" rel="noopener noreferrer">&copy; 2026 Подскребалина Дарья</a></p>
-            <a href="https://rs.school/courses/javascript" target="_blank" rel="noopener noreferrer">
-                <img src="./logo-rsschool3.png" alt="RSSchool Logo" class="rsschool-logo">
-            </a>
-        </footer>
     </div>
 </body>
 </html>
